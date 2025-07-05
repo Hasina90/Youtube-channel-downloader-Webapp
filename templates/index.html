@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>YouTube Channel Downloader</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+   <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-...truncated..."
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body>
+  <div class="card">
+    <h1><i class="fab fa-youtube"></i>YouTube Channel Downloader 🎬</h1>
+    <p class="subtitle"><i class="fas fa-info-circle"></i>Enter a YouTube channel URL and download all videos</p>
+    
+    <input type="text" id="channelUrl" placeholder="e.g. https://www.youtube.com/@channelname">
+    <button onclick="downloadVideos()"><i class="fas fa-download"></i>Download Videos</button>
+    <button onclick="stopDownload()"><i class="fas fa-stop-circle"></i>Stop Download</button>
+    <p id="statusMessage" class="status"></p>
+    <!-- <video autoplay muted loop id="bgVideo">
+      <source src="/static/space.mp4" type="video/mp4" />
+    </video> -->
+    <div class="right-icon-bar">
+      <div class="icon-item"><i class="fas fa-download"></i><span>Download</span></div>
+      <div class="icon-item"><i class="fas fa-heart"></i><span>Like</span></div>
+      <div class="icon-item"><i class="fas fa-bell"></i><span>Subscribe</span></div>
+      <div class="icon-item"><i class="fas fa-share"></i><span>Share</span></div>
+    </div>
+
+  </div>
+
+ <script src="/static/script.js"></script>
+
+</body>
+</html>
