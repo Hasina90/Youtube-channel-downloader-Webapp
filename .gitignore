@@ -1,3 +1,4 @@
 # Ignore downloaded video files
 downloads/
 *.mp4
+"downloads/" 
