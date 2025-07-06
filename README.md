@@ -70,4 +70,8 @@ http://127.0.0.1:8000
 🙋‍♀️ Author
 👤 Hasina Sheik
 💻 Built with FastAPI + JavaScript + GitHub![Screenshot (289)](https://github.com/user-attachments/assets/fc9a8359-b021-4c33-aa16-ebbab327191a)
+![screenshot jpeg](https://github.com/user-attachments/assets/2a435836-fc56-4834-898d-1658d8a9f41f)
+
+
+
 
