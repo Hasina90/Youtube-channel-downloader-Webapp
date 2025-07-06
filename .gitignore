@@ -1,4 +1,3 @@
-"downloads/" 
-"downloads/" 
-"downloads/" 
-"downloads/" 
+# Ignore downloaded video files
+downloads/
+*.mp4
